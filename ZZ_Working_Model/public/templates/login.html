@@ -1,0 +1,37 @@
+{{template "header"}}
+{{template "header2" .}}
+  <div class="formcontrols">
+    <input id="defaultRadio" type="radio" name="login-signup" value="Login">Login <br>
+    <input type="radio" name="login-signup" value="Signup">Signup <br>
+  </div>
+  <div class="loginForm">
+    <form method="POST" action="/api/login">
+        <i class="fa fa-user fa-5x"></i>
+        <input id="userNamel" name="userName" placeholder="Enter your user name" autofocus>
+        <p class="form-field-err"></p>
+        <input id="passwordl" name="password" type="password" placeholder="Enter your password">
+        <p class="form-field-err"></p>
+        <button class='accsubmit'>Submit</button>
+    </form>
+  </div>
+  <div class="signupForm">
+    <form method="POST" action="/api/createuser" id="form-create-user">
+        <i class="fa fa-user fa-5x"></i>
+        <input id="email" name="email" type="email" placeholder="Enter your email" autofocus>
+        <p class="form-field-err"></p>
+        <input id="userName" name="userName" placeholder="Enter a twitter name" autocomplete="off">
+        <p class="form-field-err" id="username-err"></p>
+        <input id="password" name="password" type="password" placeholder="Create your password">
+        <input id="password2" name="password2" type="password" placeholder="Retype your password">
+        <p class="form-field-err" id="password-err"></p>
+        <button id="btn-create-account" class='accsubmit'>Create Account</button>
+    </form>
+  </div>
+  <script type="text/javascript" src="/public/scripts/login-signup.js"></script>
+
+  <style media="screen">
+    .signupForm {
+      display: none;
+    }
+  </style>
+{{template "footer"}}

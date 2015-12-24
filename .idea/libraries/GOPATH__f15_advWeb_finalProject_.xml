@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;f15_advWeb_finalProject&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.." />
+    </CLASSES>
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$/../hitesh191/.git" />
+      <root url="file://$PROJECT_DIR$/.git" />
+      <root url="file://$PROJECT_DIR$/../hitesh191/.idea" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../GolangTraining/.git" />
+      <root url="file://$PROJECT_DIR$/../fall2015/.git" />
+      <root url="file://$PROJECT_DIR$/../fall2015/.idea" />
+      <root url="file://$PROJECT_DIR$/.idea" />
+      <root url="file://$PROJECT_DIR$/../GolangTraining/.idea" />
+    </excluded>
+  </library>
+</component>
